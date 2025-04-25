@@ -2,6 +2,8 @@
 library(readr)
 library(tidygeocoder)
 
+Sys.setenv(MAPBOX_API_KEY = "MAPBOX_API_KEY")
+
 #mapboxdata <- finaldata %>% group_by(city,state,zip,geoPoint.lat,geoPoint.lon) %>% summarize(mycount=n())
 
 #write_rds(mapboxdata[1:10,],"mapboxdata")
