@@ -1,0 +1,17 @@
+---
+title: "PullParseData_AndPush"
+author: "Andrew Cooper"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+
+```{r}
+
+
+
+library(readr)
+mysilly <- read_rds("mygeo")
+head(mysilly)
+
+```
